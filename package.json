@@ -1,0 +1,33 @@
+{
+  "private": true,
+  "name": "node-executer",
+  "version": "0.0.1",
+  "description": "execute functions",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test/executer.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/daijinload/node-executer.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "daijinload@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/daijinload/node-executer/issues"
+  },
+  "homepage": "https://github.com/daijinload/node-executer",
+  "dependencies": {
+    "async": "^0.9.0"
+  },
+  "devDependencies": {
+    "should": "^6.0.3",
+    "sinon": "^1.14.1"
+  }
+}
